@@ -1,0 +1,46 @@
+{
+  "title": "mSolarFit",
+
+  "filters": {
+    "search": "รหัสเครื่องวัดฯ (UI)",
+    "district": "พื้นที่ให้บริการ",
+    "tariff": "อัตราค่าไฟฟ้า",
+    "phase_amount": "จำนวนเฟส",
+    "pv_size": "ขนาดของ PV",
+    "payback_period": "จำนวนปีที่คืนทุน",
+    "payback_suffix": "ปี",
+    "sellback": "ขายไฟคืนให้ กฟน."
+  },
+
+  "table": {
+    "ui_no": "UI",
+    "pv_size": "PV Size (kWp)",
+    "invest_cost": "ต้นทุนการลงทุน (บาท)",
+    "payback_period": "ระยะเวลาคืนทุน (ปี)",
+    "tariff": "อัตราค่าไฟฟ้า",
+    "phase_amount": "จำนวนเฟส",
+    "district": "ไฟฟ้าเขต",
+    "is_sellback": "ขายคืนให้ กฟน.",
+    "action": ""
+  },
+
+  "payback_chart": {
+    "title": "ระยะเวลาคืนทุน แยกตามช่วงเวลา",
+    "max_payback_period": "ระยะเวลาคืนทุน {paybackPeriod} มีจำนวนมิเตอร์มากที่สุด",
+    "total_payback_period": "รวม: {count} มิเตอร์ที่มีระยะเวลาคืนทุน {paybackPeriod}"
+  },
+
+  "pv_chart": {
+    "title": "จำนวน PV แยกตามขนาดกำลังผลิต",
+    "max_pv_size": "ขนาด {pvSize} มีจำนวนมิเตอร์มากที่สุด",
+    "total_pv_size": "รวม: {count} มิเตอร์ที่มีขนาด {pvSize}"
+  },
+
+  "tariff_chart": {
+    "title": "จำนวนมิเตอร์ แยกตามอัตราค่าไฟฟ้า",
+    "max_tariff": "อัตราค่าไฟฟ้า {tariff} มีจำนวนมิเตอร์มากที่สุด",
+    "total_tariff": "รวม: {count} มิเตอร์ที่มีขนาด {tariff}",
+
+    "tariff_chart_label": "อัตราค่าไฟฟ้า {tariff}"
+  }
+}

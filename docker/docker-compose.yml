@@ -1,0 +1,17 @@
+services:
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+        - NEXT_PUBLIC_SSO_CLIENT_ID=${NEXT_PUBLIC_SSO_CLIENT_ID}
+        - NEXT_PUBLIC_SSO_REDIRECT_URI=${NEXT_PUBLIC_SSO_REDIRECT_URI}
+        - NEXT_PUBLIC_SSO_URL=${NEXT_PUBLIC_SSO_URL}
+        - NEXT_PUBLIC_IS_ENABLED_SSO=${NEXT_PUBLIC_IS_ENABLED_SSO}
+    container_name: frontend-app
+    env_file:
+      - ../.env
+    image: ${REGISTRY}/${IMAGE_NAME}:${VERSION}
+    ports:
+      - 3000:3000

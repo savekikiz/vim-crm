@@ -1,0 +1,10 @@
+{
+  "app_title": "SMG Application",
+  "app_description": "แอพพลิเคชันของ ฝวฟ.",
+
+  "login_loading": "กำลังเชื่อมต่อ...",
+  "login_button": "เข้าใช้งาน Dashboard",
+
+  "login_success": "เข้าสู่ระบบสำเร็จ",
+  "login_error": "เกิดข้อผิดพลาดในการเข้าสู่ระบบ"
+}

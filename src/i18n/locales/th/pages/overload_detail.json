@@ -1,0 +1,51 @@
+{
+  "total_meter": "มิเตอร์ทั้งหมด",
+  "overload_count_title": "จำนวนครั้งที่เกิด Overload",
+  "average_overload_duration": "ระยะเวลาที่เกิด Overload เฉลี่ย (นาที)",
+  "max_time_of_overload": "ระยะเวลาที่เกิด Overload มากที่สุด (นาที)",
+  "max_current": "ความรุนแรงที่เกิด Overload มากที่สุด (A)",
+
+  "meter_counts": "ลูก",
+  "meter_times_count": "ครั้ง",
+  "overload_duration": "นาที",
+  "current": "A",
+
+  "filters": {
+    "duration": "ระยะเวลา",
+    "duration_suffix": "นาที",
+
+    "current": "กระแสไฟฟ้า",
+    "current_suffix": "%"
+  },
+
+  "form": {
+    "location_label": "สถานที่ใช้ไฟฟ้า",
+    "ca_label": "บัญชีแสดงสัญญา (CA)",
+    "ui_label": "รหัสเครื่องวัดฯ (Installation)",
+    "mea_info_label": "ขนาดเครื่องวัดฯ",
+    "electrical_district_label": "พื้นที่ให้บริการ",
+    "phase_amount_label": "จำนวนเฟส",
+    "tariff_label": "อัตราค่าไฟฟ้า"
+  },
+
+  "table": {
+    "device_name": "ชื่ออุปกรณ์",
+    "meter_no": "หมายเลขมิเตอร์",
+    "meter_amp": "ขนาดมิเตอร์ (A)",
+    "year": "ปี",
+    "month": "เดือน",
+    "start_time": "เวลาเริ่มต้น",
+    "end_time": "เวลาสิ้นสุด",
+    "peak_current": "กระแส (A)",
+    "duration_minutes": "ระยะเวลา (นาที)",
+    "overload_count": "จำนวนครั้งที่เกิด (ครั้ง)"
+  },
+
+  "current_line_chart": {
+    "title": "กระแสไฟฟ้าเฉลี่ยของ 1 เดือน ตลอด 24 ชั่วโมง",
+    "y_label": "กระแสไฟฟ้า (A)",
+    "ref_line_label": "พิกัดกระแสของมิเตอร์ {amp} A",
+    "weekend_label": "วันหยุด",
+    "workday_label": "วันทำงาน"
+  }
+}

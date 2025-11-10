@@ -1,0 +1,29 @@
+{
+  "form": {
+    "user_label": "ชื่อผู้ใช้ไฟฟ้า",
+    "location_label": "สถานที่ใช้ไฟฟ้า",
+    "ca_label": "บัญชีแสดงสัญญา (CA)",
+    "mea_label": "รหัสเครื่องวัดฯ (Installation)",
+    "mea_size_label": "ขนาดเครื่องวัดฯ",
+    "electrical_district_label": "พื้นที่ให้บริการ",
+    "tariff_label": "ประเภทผู้ใช้ไฟฟ้า"
+  },
+
+  "filters": {
+    "sell": "ต้องการขายไฟคืนหรือไม่",
+    "sell_desc": "* ขายคืนหน่วยละ 2.2 บาท/หน่วย"
+  },
+
+  "table": {
+    "ui_no": "UI",
+    "pv_size": "PV Size (kWp)",
+    "inverter_type": "ประเภทอินเวอร์เตอร์",
+    "invest_cost": "ต้นทุน (บาท)",
+    "payback_period": "ระยะเวลาคืนทุน (ปี)",
+    "phase_amount": "เฟส",
+    "co2_reduce": "CO2 ลดลง (กิโลกรัม/ปี)",
+    "cost_save": "ประหยัดค่าไฟฟ้า (บาท/เดือน)",
+    "chart_compare": "ต้นทุน (บาท) | คืนทุน (ปี)",
+    "is_sellback": "ขายคืนให้ กฟน."
+  }
+}

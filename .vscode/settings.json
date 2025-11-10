@@ -1,0 +1,20 @@
+{
+  "files.autoSave": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "eslint.useFlatConfig": false,
+  "files.eol": "\n",
+  "vs-code-prettier-eslint.prettierLast": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

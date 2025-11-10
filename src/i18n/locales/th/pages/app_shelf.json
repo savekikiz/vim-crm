@@ -1,0 +1,15 @@
+{
+  "title": "MEA Smart Metro Grid Applications",
+  "description": "Transform your decision-making with SMG’s intuitive application and evidence-based research",
+
+  "categories": {
+    "app": "แอพพลิเคชั่น",
+    "document": "เอกสาร",
+    "dashboard": "แดชบอร์ด",
+    "external": "เว็บไซต์อื่น ๆ"
+  },
+
+  "filters": {
+    "search": "ค้นหาเลข UI หรือ CA"
+  }
+}

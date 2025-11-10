@@ -1,0 +1,76 @@
+{
+  "filters": {
+    "search": "รหัสเครื่องวัดฯ (UI)",
+    "district": "พื้นที่ให้บริการ",
+    "tariff": "อัตราค่าไฟฟ้า",
+    "phase_amount": "จำนวนเฟส",
+    "severity": "ความรุนแรง",
+    "overload_count": "จำนวนครั้ง Overload",
+    "overload_count_suffix": "ครั้ง",
+    "overload_duration": "ระยะเวลา Overload",
+    "overload_duration_suffix": "นาที"
+  },
+
+  "additional_section": {
+    "total_meter": "มิเตอร์ทั้งหมด",
+    "meter_with_overload": "มิเตอร์ที่เกิด Overload",
+    "total_overload_count": "จำนวนครั้งที่เกิด Overload",
+    "average_overload_duration": "ระยะเวลาที่เกิด Overload เฉลี่ย (นาที)",
+
+    "meter_counts": "ลูก",
+    "meter_times_count": "ครั้ง",
+    "overload_duration": "นาที"
+  },
+
+  "district_chart": {
+    "title": "จำนวนมิเตอร์ แยกตามไฟฟ้าแต่ละเขต",
+    "max_meter_district": "ไฟฟ้าเขต {district} มีจำนวนมิเตอร์มากที่สุด",
+    "total_meter_district": "รวม: {count} มิเตอร์ที่เกิด Overload ในทุกเขต",
+
+    "tariff_chart_label": "อัตราค่าไฟฟ้า {tariff}"
+  },
+
+  "mea_size_chart": {
+    "title": "จำนวนมิเตอร์ แยกตามขนาดของมิเตอร์",
+    "max_meter_tariff": "อัตราค่าไฟฟ้า {tariff} มีจำนวนมิเตอร์มากที่สุด",
+    "total_meter_tariff": "รวม: {count} มิเตอร์ที่เกิด Overload ในทุกอัตราค่าไฟฟ้า",
+
+    "size_chart_label": "ขนาดมิเตอร์ {size}"
+  },
+
+  "severity_chart": {
+    "title": "จำนวนมิเตอร์ แยกตามจำนวนครั้งที่เกิด Overload",
+    "max_meter_severity": "ความรุนแรง {severity} มีจำนวนมิเตอร์มากที่สุด",
+    "total_meter_severity": "รวม: {count} มิเตอร์ที่เกิด Overload ในทุกความรุนแรง",
+
+    "count_chart_label": "Overload {label} ครั้ง"
+  },
+
+  "overload_count_chart": {
+    "title": "จำนวนมิเตอร์ที่เกิด Overload แยกตามขนาดมิเตอร์",
+
+    "count_chart_label": "มิเตอร์ขนาด {label}"
+  },
+
+  "severity_options": {
+    "high": "สูง",
+    "medium": "ปานกลาง",
+    "low": "ต่ำ"
+  },
+
+  "table": {
+    "ui_no": "UI",
+    "date": "วันที่ (เดือน/ปี)",
+    "meter_size": "ขนาดของมิเตอร์ (แอมแปร์)",
+    "phase_amount": "จำนวนเฟส",
+    "district": "เขตที่ติดตั้ง",
+    "total_count": "จำนวนครั้งที่เกิด Overload",
+    "total_exceed_time": "ระยะเวลาที่เกิด Overload รวมใน 1 เดือน (นาที)",
+    "max_exceed_time": "ระยะเวลาที่เกิด Overload สูงสุด (นาที)",
+    "av_duration": "ระยะเวลาที่เกิดเฉลี่ยต่อครั้ง (นาที)",
+    "av_current": "กระแสเฉลี่ย (แอมแปร์)",
+    "av_peak_per_count": "กระแส Overload เฉลี่ยต่อครั้ง (แอมแปร์)",
+    "max_current": "กระแสสูงสุดที่เกิด Overload (แอมแปร์)",
+    "action": ""
+  }
+}
