@@ -1,18 +1,11 @@
 export const ROUTES = {
-  APP_SHELF: '/app-shelf',
-  BILL_BUDDY: '/bill-buddy',
-  EXTERNAL: '/external',
-  HOME: '/',
+  FILES: '/files',
   LOGIN: '/',
-  M_EV: '/m-ev',
-  MSOLARFIT: '/msolarfit',
-  OVERLOAD: '/overload-alert',
-  POWER_BI: '/power-bi',
-  USER_MANAGEMENT: '/user-management',
+  USERS: '/users',
 }
 
-export const PUBLIC_ROUTES = [ROUTES.LOGIN, ROUTES.EXTERNAL]
-export const ADMIN_ROUTES = [ROUTES.USER_MANAGEMENT]
+export const PUBLIC_ROUTES = [ROUTES.LOGIN]
+export const ADMIN_ROUTES = [ROUTES.USERS]
 
 export const SMART_GRID_DASHBOARD_URL =
   'https://app.powerbi.com/view?r=eyJrIjoiNWY3MmU0NTYtOGRhMy00NWQyLThlZjctMDQzNzFkMzdhZmE3IiwidCI6ImZlYmM0NDkwLTY2MjEtNGJkNy1iZmI1LTZmMDkyZjhiN2ZhYyIsImMiOjEwfQ%3D%3D'

@@ -29,9 +29,9 @@ type NavUserProps = {
 }
 
 const DEFAULT_USER = {
-  EMAIL: 'mea@mea.or.th',
+  EMAIL: 'default@mail.com',
   IMAGE: '',
-  NAME: 'การไฟฟ้า นครหลวง',
+  NAME: 'vim ocr',
 }
 
 export function NavUser({ user }: Readonly<NavUserProps>) {
