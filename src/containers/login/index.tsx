@@ -43,11 +43,13 @@ export const LoginLocalContainer = () => {
     resolver: zodResolver(loginSchema),
   })
 
-  const redirectToAppShelf = () => {
-    router.replace(ROUTES.APP_SHELF)
+  const redirectUser = () => {
+    router.replace(ROUTES.FILES)
   }
 
   const handleLogin = async (values: LoginFormValues) => {
+    return redirectUser()
+
     setIsLogin(true)
 
     const payload = {
@@ -64,7 +66,7 @@ export const LoginLocalContainer = () => {
       if (result?.error) throw new Error(result.error)
 
       toast.success(t('login_success'))
-      redirectToAppShelf()
+      redirectUser()
     } catch {
       toast.error(t('login_error'))
     } finally {

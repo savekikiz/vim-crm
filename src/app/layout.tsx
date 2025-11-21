@@ -9,7 +9,6 @@ import { Toaster } from 'sonner'
 
 import './globals.css'
 
-import { ProtectedRoute } from '@/components/auth'
 import { TanstackProvider } from '@/lib/tanstack-query'
 
 const ibmSans = localFont({
@@ -62,9 +61,9 @@ export default async function RootLayout({
         <TanstackProvider>
           <SessionProvider>
             <NextIntlClientProvider>
-              <ProtectedRoute>
-                <Suspense>{children}</Suspense>
-              </ProtectedRoute>
+              {/* <ProtectedRoute> */}
+              <Suspense>{children}</Suspense>
+              {/* </ProtectedRoute> */}
             </NextIntlClientProvider>
           </SessionProvider>
           <Toaster
