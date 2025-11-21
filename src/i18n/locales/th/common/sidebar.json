@@ -1,5 +1,5 @@
 {
-  "title": "กองโครงข่ายอัจฉริยะ",
+  "title": "Billing System",
   "home": "หน้าแรก",
   "settings": "การตั้งค่า",
   "help": "ช่วยเหลือ",
@@ -8,17 +8,8 @@
 
   "app_section": "แอพพลิเคชั่น",
   "app_menu": {
-    "solar": {
-      "title": "mSolarFit",
-      "sub_menu": {
-        "history": "ประวัติ",
-        "calculator": "เครื่องคำนวณ",
-        "settings": "การตั้งค่า"
-      }
-    },
-    "tou": "Bill Buddy",
-    "ev": "mEV",
-    "overload": "Overload Alert"
+    "users": "จัดการผู้ใช้งาน",
+    "files": "จัดการเอกสาร"
   },
 
   "document_section": "เอกสาร",
@@ -32,12 +23,6 @@
   "dashboard_section": "แดชบอร์ด",
   "dashboard_menu": {
     "grid_dashboard": "Smart Grid Dashboard"
-  },
-
-  "management_section": "การจัดการ",
-  "management_menu": {
-    "user_management": "จัดการผู้ใช้งาน",
-    "search": "ค้นหารายการเมนู"
   },
 
   "terms_and_policy": {
