@@ -59,7 +59,7 @@ export function NavMain({ groupName, items }: Readonly<NavMainProps>) {
               isActive={isActive('/home')}
               tooltip="Quick Create"
             >
-              <Link href={ROUTES.APP_SHELF}>
+              <Link href={ROUTES.LOGIN}>
                 <House />
                 <span>{t('home')}</span>
               </Link>
